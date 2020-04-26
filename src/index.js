@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Add from './Add';
+import * as serviceWorker from './registerServiceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Add />
     <App />
+   
   </React.StrictMode>,
   document.getElementById('root')
 );

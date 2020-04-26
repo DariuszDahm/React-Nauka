@@ -3,10 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const logo2 = "Programowanie w React";
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt={logo} title={logo2} />
         <p>
           Edytuj kod z  <code>src/App.js</code> zapisz go i uruchom ponownie.
         </p>

@@ -1,0 +1,13 @@
+.box-1 {
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+}
+h2 {
+    color: white;
+}
